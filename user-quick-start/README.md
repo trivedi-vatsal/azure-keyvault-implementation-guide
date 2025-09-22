@@ -84,12 +84,6 @@ If you can't see secrets you need:
 - **Request access**: Follow the access request process
 - **Contact support**: Reach out to IT support
 
-## 📞 Support
-
-- **IT Service Desk**: <it-servicedesk@company.com>
-- **Platform Team**: <platform-team@company.com>
-- **Emergency**: +1-XXX-XXX-XXXX
-
 ## 📋 Common Tasks
 
 ### Finding a Database Password

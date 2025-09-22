@@ -88,12 +88,6 @@ graph TB
 4. **Full Implementation**: Use [Implementation Guide](docs/implementation.md)
 5. **Train Users**: Deploy [User Training](docs/user-training.md)
 
-## 📞 Support
-
-- **IT Service Desk**: <it-servicedesk@company.com>
-- **Platform Team**: <platform-team@company.com>
-- **Security Team**: <security-team@company.com>
-
 ## 📄 License
 
 This guide is provided as-is for internal use. Please ensure compliance with your organization's policies and Azure terms of service.
