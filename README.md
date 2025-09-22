@@ -104,3 +104,18 @@ azure-keyvault-implementation-guide/
 2. **Follow the appropriate guide** for your use case
 3. **Use the troubleshooting guides** if you encounter issues
 4. **Contact support** for additional help
+
+## 🏷️ **Tags & Keywords**
+
+`azure-keyvault` `azure-rbac` `microsoft-entra-id` `powershell` `arm-templates` `security` `compliance` `user-training` `admin-setup` `automation` `monitoring` `infrastructure-as-code`
+
+## 📄 **License**
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 **Contributing**
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
