@@ -1,6 +1,8 @@
 # Azure Key Vault Implementation Guides
 
-Comprehensive implementation guides for Azure Key Vault, designed for different use cases and technical levels.
+## What This Repository Provides
+
+This repository contains two complete implementation approaches for Azure Key Vault, designed to meet different organizational needs and technical requirements.
 
 ## 🚀 Choose Your Implementation Path
 
