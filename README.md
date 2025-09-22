@@ -82,12 +82,6 @@ Comprehensive implementation guides for Azure Key Vault, designed for different 
 - CLI reference and troubleshooting
 - Implementation checklist
 
-## 📞 **Support & Resources**
-
-- **IT Service Desk**: <it-servicedesk@company.com>
-- **Platform Team**: <platform-team@company.com>
-- **Security Team**: <security-team@company.com>
-
 ## 📄 **Documentation Structure**
 
 ```
@@ -114,5 +108,3 @@ azure-keyvault-implementation-guide/
 2. **Follow the appropriate guide** for your use case
 3. **Use the troubleshooting guides** if you encounter issues
 4. **Contact support** for additional help
-
----
