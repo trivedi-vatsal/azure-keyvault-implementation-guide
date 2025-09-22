@@ -1,0 +1,6 @@
+VaultName,Name,KeyType,KeySize,Operations,Team,Environment,Owner,Project,Description
+contoso-prod-secrets,keys/data/encryption/tenant-signing/prod,RSA,3072,"sign,verify",data,prod,john.doe@contoso.com,data-migration,Production tenant signing key
+contoso-prod-secrets,keys/web/api/jwt-signing/prod,RSA,2048,"sign,verify",web,prod,jane.smith@contoso.com,web-app,Production JWT signing key
+contoso-dev-secrets,keys/data/encryption/tenant-signing/dev,RSA,3072,"sign,verify",data,dev,john.doe@contoso.com,data-migration,Development tenant signing key
+contoso-dev-secrets,keys/web/api/jwt-signing/dev,RSA,2048,"sign,verify",web,dev,jane.smith@contoso.com,web-app,Development JWT signing key
+contoso-prod-secrets,keys/payment/encryption/processor/prod,RSA,4096,"wrapKey,unwrapKey",payment,prod,bob.wilson@contoso.com,payment-system,Production payment processor encryption key

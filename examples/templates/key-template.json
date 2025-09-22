@@ -1,0 +1,22 @@
+{
+  "name": "keys/data/encryption/tenant-signing/prod",
+  "keyType": "RSA",
+  "keySize": 3072,
+  "operations": ["sign", "verify"],
+  "tags": {
+    "team": "data",
+    "environment": "prod",
+    "owner": "john.doe@company.com",
+    "ticket": "IT-12345",
+    "pii": "no",
+    "decommission_date": "2024-12-31",
+    "project": "data-migration",
+    "cost_center": "IT-001",
+    "compliance": "SOC2",
+    "rotation_schedule": "1-year",
+    "classification": "confidential",
+    "application": "etl-pipeline",
+    "service": "encryption",
+    "description": "Production tenant signing key"
+  }
+}

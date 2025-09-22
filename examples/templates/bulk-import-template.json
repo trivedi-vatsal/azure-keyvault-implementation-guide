@@ -1,0 +1,94 @@
+{
+  "secrets": [
+    {
+      "name": "data/etl/database/password/prod",
+      "value": "SecurePassword123!",
+      "contentType": "password",
+      "expires": "2024-12-31T23:59:59Z",
+      "tags": {
+        "team": "data",
+        "environment": "prod",
+        "owner": "john.doe@company.com",
+        "ticket": "IT-12345",
+        "pii": "no",
+        "decommission_date": "2024-12-31",
+        "project": "data-migration",
+        "cost_center": "IT-001",
+        "compliance": "SOC2",
+        "rotation_schedule": "90-days",
+        "classification": "confidential",
+        "application": "etl-pipeline",
+        "service": "database",
+        "description": "Production ETL database password"
+      }
+    },
+    {
+      "name": "web/api/external-service/key/prod",
+      "value": "APIKey123456789",
+      "contentType": "api-key",
+      "expires": "2024-08-01T00:00:00Z",
+      "tags": {
+        "team": "web",
+        "environment": "prod",
+        "owner": "jane.smith@company.com",
+        "ticket": "REQ-67890",
+        "pii": "no",
+        "decommission_date": "2024-08-01",
+        "project": "web-redesign",
+        "cost_center": "ENG-002",
+        "compliance": "SOC2",
+        "rotation_schedule": "180-days",
+        "classification": "internal",
+        "application": "web-api",
+        "service": "api-gateway",
+        "description": "External API service key"
+      }
+    }
+  ],
+  "keys": [
+    {
+      "name": "keys/data/encryption/tenant-signing/prod",
+      "keyType": "RSA",
+      "keySize": 3072,
+      "operations": ["sign", "verify"],
+      "tags": {
+        "team": "data",
+        "environment": "prod",
+        "owner": "john.doe@company.com",
+        "ticket": "IT-12345",
+        "pii": "no",
+        "decommission_date": "2024-12-31",
+        "project": "data-migration",
+        "cost_center": "IT-001",
+        "compliance": "SOC2",
+        "rotation_schedule": "1-year",
+        "classification": "confidential",
+        "application": "etl-pipeline",
+        "service": "encryption",
+        "description": "Production tenant signing key"
+      }
+    },
+    {
+      "name": "keys/web/api/jwt-signing/prod",
+      "keyType": "RSA",
+      "keySize": 2048,
+      "operations": ["sign", "verify"],
+      "tags": {
+        "team": "web",
+        "environment": "prod",
+        "owner": "jane.smith@company.com",
+        "ticket": "REQ-67890",
+        "pii": "no",
+        "decommission_date": "2024-08-01",
+        "project": "web-redesign",
+        "cost_center": "ENG-002",
+        "compliance": "SOC2",
+        "rotation_schedule": "1-year",
+        "classification": "internal",
+        "application": "web-api",
+        "service": "jwt",
+        "description": "JWT signing key"
+      }
+    }
+  ]
+}
