@@ -15,8 +15,6 @@ Comprehensive implementation guides for Azure Key Vault, designed for different 
 
 **→ [Go to User Quick Start](user-quick-start/README.md)**
 
----
-
 ### 🏢 **Enterprise Implementation Guide**
 
 **For: IT Teams & Comprehensive Deployments**
@@ -27,8 +25,6 @@ Comprehensive implementation guides for Azure Key Vault, designed for different 
 - **Focus**: Production-ready, enterprise-grade implementation
 
 **→ [Go to Enterprise Guide](enterprise-implementation-guide/README.md)**
-
----
 
 ## 📊 **Quick Comparison**
 

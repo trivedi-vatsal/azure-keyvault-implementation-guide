@@ -97,9 +97,3 @@ graph TB
 ## 📄 License
 
 This guide is provided as-is for internal use. Please ensure compliance with your organization's policies and Azure terms of service.
-
----
-
-_Last Updated: [Current Date]_  
-_Document Owner: IT Platform Team_  
-_Review Cycle: Quarterly_
