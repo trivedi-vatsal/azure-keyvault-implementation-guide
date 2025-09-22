@@ -1,105 +1,118 @@
-# Azure Key Vault Implementation Guide
+# Azure Key Vault Implementation Guides
 
-A comprehensive, enterprise-ready implementation guide for Azure Key Vault with security best practices, operational procedures, and user training materials.
+Comprehensive implementation guides for Azure Key Vault, designed for different use cases and technical levels.
 
-## 🚀 Quick Start
+## 🚀 Choose Your Implementation Path
 
-Get up and running in 15 minutes with our [Quick Start Guide](docs/quick-start-guide.md).
+### 📱 **User Quick Start**
 
-## 📚 Documentation Structure
+**For: End Users & Quick Deployments**
 
-| Document                                       | Description                                |
-| ---------------------------------------------- | ------------------------------------------ |
-| [Quick Start Guide](docs/quick-start-guide.md) | 15-minute setup guide                      |
-| [Architecture & Design](docs/architecture.md)  | Technical architecture and design patterns |
-| [Security Framework](docs/security.md)         | Security controls and best practices       |
-| [Implementation Guide](docs/implementation.md) | Detailed implementation steps              |
-| [Operational Procedures](docs/operations.md)   | Daily, weekly, and monthly procedures      |
-| [User Training](docs/user-training.md)         | End-user training materials                |
-| [CLI Reference](docs/cli-reference.md)         | Complete CLI command reference             |
-| [Troubleshooting](docs/troubleshooting.md)     | Common issues and solutions                |
+- **Time**: 5 minutes for users, 15 minutes for admins
+- **Approach**: Manual setup using Azure UI and Azure Key Vault Explorer
+- **Assumes**: Key Vault already exists
+- **Focus**: Getting users productive quickly
 
-## 🛠️ Tools & Scripts
+**→ [Go to User Quick Start](user-quick-start/README.md)**
 
-| Tool                                        | Description                      |
-| ------------------------------------------- | -------------------------------- |
-| [Setup Script](scripts/setup-keyvault.ps1)  | Automated Key Vault deployment   |
-| [Audit Script](scripts/audit-access.ps1)    | Access auditing and reporting    |
-| [ARM Template](templates/arm-template.json) | Infrastructure as Code template  |
-| [Examples](examples/)                       | Practical examples and templates |
+---
 
-## 📋 Implementation Checklist
+### 🏢 **Enterprise Implementation Guide**
 
-Use our [Implementation Checklist](IMPLEMENTATION_CHECKLIST.md) to ensure a complete and secure deployment.
+**For: IT Teams & Comprehensive Deployments**
 
-## 🎯 Key Features
+- **Time**: 2-4 hours for full implementation
+- **Approach**: Automated setup with scripts, templates, and best practices
+- **Includes**: Complete infrastructure setup, security, monitoring, and operations
+- **Focus**: Production-ready, enterprise-grade implementation
 
-- **Enterprise Security**: RBAC, private endpoints, and comprehensive monitoring
-- **Operational Excellence**: Automated procedures and audit capabilities
-- **User-Friendly**: Complete training materials and user guides
-- **Compliance Ready**: Built-in compliance and audit features
-- **Scalable**: Designed for organizations of all sizes
+**→ [Go to Enterprise Guide](enterprise-implementation-guide/README.md)**
 
-## 🏗️ Architecture Overview
+---
 
-```mermaid
-graph TB
-    A[Users] --> B[Azure Key Vault Explorer]
-    A --> C[Azure Portal]
-    A --> D[CLI/SDKs]
+## 📊 **Quick Comparison**
 
-    B --> E[Private Endpoint]
-    C --> E
-    D --> E
+| Feature | User Quick Start | Enterprise Guide |
+|---------|------------------|------------------|
+| **Setup Time** | 5-15 minutes | 2-4 hours |
+| **Complexity** | Low | High |
+| **Automation** | Manual | Automated |
+| **Audience** | End users | IT teams |
+| **Scope** | User access | Full implementation |
+| **Scripts** | None | PowerShell + ARM |
+| **Monitoring** | Basic | Comprehensive |
+| **Compliance** | Basic | Enterprise-grade |
 
-    E --> F[Azure Key Vault]
+## 🎯 **Which Guide Should You Use?**
 
-    F --> G[Log Analytics]
-    F --> H[Azure Monitor]
+### **Use User Quick Start if:**
 
-    I[Entra ID Groups] --> F
-    J[Conditional Access] --> A
+- ✅ Key Vault already exists
+- ✅ You need users productive quickly
+- ✅ You prefer manual configuration
+- ✅ You have basic security requirements
+- ✅ You want simple, straightforward setup
 
-    K[Backup Vault] --> F
-    L[Recovery Services] --> K
-```
+### **Use Enterprise Guide if:**
 
-## 🔐 Security Highlights
+- ✅ You're implementing from scratch
+- ✅ You need comprehensive security
+- ✅ You want automation and scripting
+- ✅ You have compliance requirements
+- ✅ You need detailed monitoring and operations
 
-- **Zero Trust Architecture**: Private endpoints and network restrictions
-- **RBAC-Based Access**: Group-based permissions with least privilege
-- **Comprehensive Auditing**: All operations logged and monitored
-- **Data Protection**: Encryption at rest and in transit
-- **Compliance Ready**: SOC2, GDPR, and industry standard compliance
+## 🛠️ **What's Included**
 
-## 📊 Monitoring & Alerting
+### **User Quick Start**
 
-- Real-time security alerts
-- Access pattern analysis
-- Performance monitoring
-- Compliance reporting
-- Automated audit trails
+- 5-minute user setup guide
+- Azure Key Vault Explorer instructions
+- Access request templates
+- Troubleshooting guide
+- Admin quick setup (15 minutes)
 
-## 🚀 Getting Started
+### **Enterprise Guide**
 
-1. **Review Architecture**: Start with [Architecture & Design](docs/architecture.md)
-2. **Plan Security**: Review [Security Framework](docs/security.md)
-3. **Quick Setup**: Follow [Quick Start Guide](docs/quick-start-guide.md)
-4. **Full Implementation**: Use [Implementation Guide](docs/implementation.md)
-5. **Train Users**: Deploy [User Training](docs/user-training.md)
+- Complete architecture documentation
+- Security framework and controls
+- Automated deployment scripts
+- ARM templates for infrastructure
+- Comprehensive monitoring setup
+- Operational procedures and runbooks
+- CLI reference and troubleshooting
+- Implementation checklist
 
-## 📞 Support
+## 📞 **Support & Resources**
 
 - **IT Service Desk**: <it-servicedesk@company.com>
 - **Platform Team**: <platform-team@company.com>
 - **Security Team**: <security-team@company.com>
 
-## 📄 License
+## 📄 **Documentation Structure**
 
-This guide is provided as-is for internal use. Please ensure compliance with your organization's policies and Azure terms of service.
+```
+azure-keyvault-implementation-guide/
+├── README.md                           # This file - navigation hub
+├── user-quick-start/                   # Quick user-focused guide
+│   ├── README.md                       # 5-minute setup
+│   ├── user-guide.md                   # Complete user guide
+│   ├── quick-reference.md              # Essential reference
+│   ├── access-request-template.md      # Email templates
+│   ├── admin-setup.md                  # 15-minute admin setup
+│   └── troubleshooting.md              # Common issues
+└── enterprise-implementation-guide/    # Comprehensive enterprise guide
+    ├── README.md                       # Main enterprise guide
+    ├── docs/                           # Detailed documentation
+    ├── examples/                       # Practical examples
+    ├── scripts/                        # Automation scripts
+    └── templates/                      # Infrastructure templates
+```
+
+## 🚀 **Getting Started**
+
+1. **Choose your path** based on your needs
+2. **Follow the appropriate guide** for your use case
+3. **Use the troubleshooting guides** if you encounter issues
+4. **Contact support** for additional help
 
 ---
-
-_Last Updated: [Current Date]_  
-_Document Owner: IT Platform Team_  
-_Review Cycle: Quarterly_
